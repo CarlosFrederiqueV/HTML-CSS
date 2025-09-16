@@ -1,4 +1,76 @@
 @charset "UTF-8";
+
 body , html {
-    background-color: lightblue;
+    background-color: lightgray;
+}
+
+*{
+ 
+ font-family: Arial, Helvetica, sans-serif;   
+ margin: 0px;
+ padding: 0px;
+}
+
+menu{
+    display: none;
+}
+
+i#Menu{
+    background-color: darkgray;
+    color: white;
+    text-align: center;
+    padding: 3px;
+    display: block;
+    cursor: pointer;
+}
+
+i#Menu:hover{
+    background-color: white;
+    color: black;
+}
+
+menu > ul{
+    list-style-type: none;
+}
+
+menu > ul > li > a{
+display: block;
+padding: 10px;
+text-decoration: none;
+background-color: rgba(58, 58, 58, 0.418);
+color: white;
+text-align: center;
+border-top: 2px solid white;
+}
+
+menu > ul > li > a:hover{
+    background-color: gray;
+}
+
+header{
+    background-color: lightgray;
+}
+
+header > h1{
+    padding: 10px;
+    text-align: center;
+}
+
+main{
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 5px;
+    margin: auto;
+    width: 90vw;
+    background-color: white;
+}
+
+main > article > h2{
+    padding-bottom: 20px;
+}
+
+article > p{
+    text-align: justify;
+    margin-bottom: 15px;
+    text-indent: 15px;
 }
