@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando Flexbox</title>
+    <style>
+        div.conteiner{
+            background-color: lightblue;
+            display: flex;
+        }
+
+        div.item{
+            background-color: lightgray;
+            border: 1px solid black;
+            padding: 20px;
+            text-align: center;
+            flex-flow: row wrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="item">a</div>
+        <div class="item">b</div>
+        <div class="item">c</div>
+        <div class="item">d</div>
+        <div class="item">e</div>
+        <div class="item">f</div>
+        <div class="item" style="order: 1;">g</div>
+        <div class="item">h</div>
+        <div class="item" style="order: -3;">i</div>
+    </div>
+</body>
+</html>
