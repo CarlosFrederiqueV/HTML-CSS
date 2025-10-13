@@ -16,6 +16,9 @@ body{
 header{
     background-color: gray;
     padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 main{
@@ -24,4 +27,23 @@ main{
     padding: 5px;
     border-radius: 5px;
     box-shadow: 2px 2px 3px black;
+}
+
+header > nav > a {
+    background-color: rgba(82, 67, 67, 0.212);
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+header > h1{
+    flex: 0 0 200px;
+}
+
+header > nav{
+    display: flex;
+    flex-flow: wrap nowrap;
 }
